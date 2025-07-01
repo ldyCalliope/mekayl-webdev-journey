@@ -1,0 +1,87 @@
+
+- FOR BG IMAGE 
+body {
+  background-image: url("")
+  background-position: right top;
+}
+-------------------------
+-MARGINS-
+margin: 50px 50px;
+TOP-BOTTOM    
+LEFT-RIGHT
+
+margin: 50px;
+top-right-bottom-left
+--------------------------
+-BORDER STYLES-
+border-style: dashed double dotted solid;
+top-right-bottom-left
+
+border: 10px dashed purple;
+border-left: dashed;
+border-bottom:dotted;
+---------------------------
+-BORDER WIDTH-
+border-width: 10px 5px 8px 22px;
+top-right-bottom-left
+----------------------------
+-OUTLINE STYLE-
+outline-style: dashed;
+
+CODE
+h1 {
+  border: 2px dashed green;
+  outline-style: solid;
+  outline-offset: 10px;
+}
+------------------------------
+-VERTICAL ALIGNMENT-
+vertical-align: top;
+
+-----------------------------
+If you want to remove style or style a link 
+
+TEXT DECORATION
+text-decoration: overline purple solid 6px;
+
+
+h1, a {
+  text-decoration: none;
+}
+-----------------------------
+TEXT TRANSFORMATION
+
+text-transformation: uppercase;
+lowercase
+capitalize
+------------------------------
+TEXT INDENTATION
+
+text-indent: 30px;
+letter-spacing: 30px;
+-----------------------------
+FONTS
+
+font-family: "Lucia Console", "Courier New", monospace;
+font-style: italic;
+font-weight: bold;
+font-size: 4em;
+1em is equal to 16px
+
+-----------------------------
+DISPLAY AND VISIBILITY
+
+| Property             | Hidden? | Takes up Space? | Removed from Flow? |
+| -------------------- | ------- | --------------- | ------------------ |
+| `display: none`      | ✅ Yes  | ❌ No          | ✅ Yes             |
+| `visibility: hidden` | ✅ Yes  | ✅ Yes         | ❌ No               |
+
+-----------------------------
+
+COMBINATORS IN CSS
+
+Descedant- it matches all descendant elements that are inside ancestor, no matter how deeply nested.
+
+The child selector targets only the direct children of an element not grandchildren or deeper descendants.
+
+The adjacent sibling selector selects an element that is immediately next to another element — they must be siblings in the HTML and directly follow one another.

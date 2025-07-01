@@ -1,0 +1,22 @@
+
+/* DESCENDANT SELECTOR */
+h1 p {
+  color: palevioletred;
+}
+
+/* CHILD SELECTOR */
+
+h2 > p {
+  color:blueviolet;
+}
+
+/* ADJACENT SELECTOR */
+h3 + b {
+  color:green;
+}
+
+/* GENERAL SIBLING */
+
+h4 ~ b {
+  color: darkblue;
+}

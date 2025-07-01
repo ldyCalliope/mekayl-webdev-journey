@@ -1,0 +1,83 @@
+/*Changes the BG color of the page to pink*/
+body {
+  background-color: pink;
+}
+
+/* Calls the ID */
+#title {
+  color: pink;
+  background-color: purple;
+  text-align: center;
+}
+
+/* Calls the class and style it */
+.heading {
+  color: purple;
+}
+
+/* Calls every element of (p) that has a class of (paragraph) */
+p.paragraph {
+  color: blueviolet;
+}
+
+/* Universal Selector every element will be affected */
+* {
+  color:black;
+
+}
+
+/* You can call in one line if the styles are same */
+h2, p {
+  color: black;
+}
+
+
+/* MARGINS TOP-RIGHT-BOTTOM-LEFT*/
+.description {
+  margin:50px 50px 50px 50px; 
+}
+
+b {
+  margin-top: 50px;
+}
+
+.facts {
+  margin-top: inherit;
+  border-style: dashed;
+}
+
+/* BORDERS */
+.border2 {
+  border-style: dotted;
+}
+
+.border3 {
+  border-style: solid;
+}
+
+.border4 {
+  border-style: double;
+}
+
+.border5 {
+  border-style: groove;
+}
+
+/* Border Style */
+h1 {
+  height: 90px;
+  width: 50%;
+  border-style: solid;
+  border-width: 10px 5px;
+  border-color: purple green skyblue red;
+  border-radius: 8px;
+  padding: 10px 10px 12px 10px;
+}
+
+.sentence {
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  text-align: center;
+  text-align-last: center;
+}

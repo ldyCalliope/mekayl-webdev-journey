@@ -1,0 +1,12 @@
+
+/*targets all <div> elements that have a class attribute, regardless of the class name.*/
+
+div[class] {
+  color: darksalmon;
+}
+
+/* This selector targets any element with an attribute class="another-test" that is a descendant of a <div>.*/
+
+div [class="another-test"] {
+  color: darkorchid;
+}

@@ -1,0 +1,23 @@
+table, th, td {
+  border: 1px solid black;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 50px;
+}
+
+td {
+  text-align: center;
+}
+
+/* You can also do this 
+th, td {
+text-align:left;
+padding: 10px; */
+
+tr:hover {
+  background-color: grey;
+}
+
