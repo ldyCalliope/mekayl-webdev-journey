@@ -17,7 +17,7 @@ h3 {
   padding: 10px;
 }
 
-.topnav a {
+.topnav a{
   float: left;
   display: block;
   color: white;
@@ -26,23 +26,20 @@ h3 {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
-
 }
 
 .topnav .search-container{
   float: right;
 }
 
-form {
+form{
   background-color: #151f30;
   width: 300px;
   height: 43px;
   border-radius: 11px;
   display: flex;
-  align-items: center;
-  margin: 10px;
+  alight-items: center;
 }
-
 
 input {
   all: unset;
@@ -53,12 +50,10 @@ input {
   padding: 6px 9px;
 }
 
-
 .thumbnail {
-  height: 300px;
-  width: 200px;
+  height: 350px;
+  width: 300px;
   border-radius: 19px;
-  object-fit: cover;
 }
 
 .column {
@@ -68,23 +63,8 @@ input {
 }
 
 .card{
-  display: inline-block;
   border-radius: 19px;
   padding: 15px;
   text-align: center;
-  background-color:#151f30;
-  width: 230px;
-  margin: 10px;
-
-}
-
-.content-container {
-  padding-left:16px;
-}
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
+  background-color: #151f30;
 }
