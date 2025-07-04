@@ -1,0 +1,7 @@
+
+
+ Note: Lessons 3 and 4 exercises are already completed using the files I had previously created. I just edited them to align with the tutorial exercises.
+
+
+To achieve multiple spaces between the texts use this:
+margin-left: 2px; (example)
