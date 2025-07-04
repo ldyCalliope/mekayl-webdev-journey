@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LESSON 2</title>
+
+  <style>
+
+    .uber-btn{
+      background-color: black;
+      color: white;
+      border: none;
+      height: 36px;
+      width: 100px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .uber-btn:hover{
+      opacity: 0.8;
+    }
+
+    .uber-btn:active{
+      opacity: 0.7;
+    }
+
+    .amazon-btn {
+      background-color: rgb(255, 216, 20);
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+      height: 36px;
+      width: 180px;
+      border-radius: 18px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+
+    .amazon-btn:hover {
+      background-color: rgb(255, 209, 57);
+    }
+
+    .amazon-btn:active {
+      opacity: 0.8;
+    }
+
+    .github-btn {
+      background-color: rgb(46, 164, 79);
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      height: 40px;
+      width: 90px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+
+    .github-btn:hover{
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .github-btn:active {
+      opacity: 0.8;
+    }
+    
+    .start-btn{
+      background-color:rgb(121,82,179);
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+      height: 40px;
+      width: 120px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 7px;
+      transition: opacity 0.15s;
+    }
+
+    .start-btn:hover{
+      background-color: rgb(82, 50, 131);
+    }
+
+    .start-btn:active{
+      opacity: 0.7;
+    }
+
+    .download-btn{
+      background-color: white;
+      color: rgb(108, 117, 125);
+      height: 40px;
+      width: 100px;
+      font-size: 15px;
+      font-weight: bold;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(108, 117, 125);
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .download-btn:hover{
+      background-color: rgb(108, 117, 125);
+      color: white;
+    }
+
+    .apply-btn {
+      background-color: rgb(10, 102, 194);
+      color: white;
+      border: none;
+      height: 45px;
+      width: 250px;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 25px;
+      margin-right: 7px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+
+    .apply-btn:hover{
+      background-color:rgb(22, 82, 143); 
+    }
+
+    .apply-btn:active{
+      opacity: 0.9;
+    }
+
+    .save-btn {
+      background-color: white;
+      color: blue;
+      border-width: 1px;
+      border-style: solid;
+      border-color: blue;
+      height: 45px;
+      width: 90px;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 25px;
+      cursor:pointer;
+      transition: background-color 0.15s,
+      border-width 0.15s;
+
+    }
+
+    .save-btn:hover{
+      background-color: rgb(121, 216, 253);
+      border-width: 2px;
+
+    }
+
+    .amazon-link {
+      color: (0, 113, 133);
+    }
+
+    .amazon-link:hover{
+      color: darkred;
+    }
+
+    .nike-text {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .price-text {
+      color: rgb(0,118,0);
+    }
+
+    .delivery-text {
+      font-size: 15px;
+    }
+
+    .add-to-cart-btn {
+      background-color: rgb(255, 216, 20);
+      border: none;
+      height: 36px;
+      width: 150px;
+      border-radius: 18px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer; 
+      transition: background-color 0.15s;
+    }
+
+    .add-to-cart-btn:hover{
+      background-color: rgb(247, 200, 46);
+    }
+
+    .add-to-cart-btn:active{
+      opacity: 0.7;
+    }
+
+    .buy-now-btn{
+      background-color: rgb(255, 164, 28);
+      border: none;
+      height: 36px;
+      width: 150px;
+      border-radius: 18px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.15s,
+      color 0.15s;
+    }
+
+    .buy-now-btn:hover{
+      background-color: rgb(238, 154, 27);
+    }
+
+    .buy-now-btn:active{
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 2A. UBER -->
+  <button class="uber-btn">Request now</button><br><br>
+
+  <!-- 2B. AMAZON-->
+  <button class="amazon-btn">Add to Cart</button><br><br>
+
+  <!-- 2C. GITHUB -->
+  <button class="github-btn">Sign up</button><br><br>
+
+  <!-- 2D. BOOTSTRAP -->
+  <button class="start-btn">
+    Get started
+  </button>
+
+  <button class="download-btn">
+    Download
+  </button><br><br>
+
+  <!-- 2E. LINKEDIN -->
+  <button class="apply-btn">
+    Apply on company website
+  </button>
+  
+  <button class="save-btn">
+    Save
+  </button>
+
+  <br><br>
+
+  <!-- Challenge Exercise -->
+  
+  <!-- 2F. -->
+  <a class="amazon-link" href="https://www.amazon.com" target="_blank">
+    Back to Amazon
+  </a>
+
+  <p class="nike-text">Nike Black Running Shoes</p>
+
+  <p class="price-text">&dollar;39 - in stock.</p>
+
+  <p class="delivery-text">Free delivery tomorrow.</p>
+
+  <button  class="add-to-cart-btn">Add to Cart</button>
+  <button class="buy-now-btn">Buy now</button>
+
+</body>
+</html>
