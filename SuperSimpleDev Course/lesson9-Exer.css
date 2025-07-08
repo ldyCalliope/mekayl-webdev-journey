@@ -84,4 +84,36 @@
   padding:12px 12px;
   width: 450px;
   border-radius: 6px;
+  margin-bottom: 300px;
+}
+
+.google-clone {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.google-search {
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google-btn, .search-btn {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 0 5px;
 }
