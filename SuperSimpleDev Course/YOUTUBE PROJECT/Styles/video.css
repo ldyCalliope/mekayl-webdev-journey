@@ -1,15 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-p {
-  font-family: Roboto, Arial, sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.search-bar {
-  display: block;
-}
 
 .thumbnail {
   width: 100%;
