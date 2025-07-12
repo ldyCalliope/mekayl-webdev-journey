@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS GRID PRACTICE</title>
+  <link rel="stylesheet" href="lesson11-Exer.css">
+</head>
+
+<body>
+  <!-- 11A. Create a grid with 2 columns with widths of 200px and 75px -->
+  <div class="grid-two-col">
+    <div class="blue-column">
+      200px
+    </div>
+    <div class="pink-column">
+      75px
+    </div>
+  </div>
+
+  <!-- 11B. Create a grid with 3 columns. Widths=50px remaining space 75px -->
+  <div class="grid-three-col">
+    <div class="col-one">
+      column1
+    </div>
+    <div class="col-two">
+      column2
+    </div>
+    <div class="col-three">
+      column3
+    </div>
+  </div>
+
+  <!-- 11C. Create a grid with 4 equal columns that take up the entire page. Space between columns=20px, space between rows=10px -->
+  <div class="grid-four-col">
+    <div class="pink">
+      column1
+    </div>
+    <div class="pink">
+      column2
+    </div>
+    <div class="pink">
+      column3
+    </div>
+    <div class="pink">
+      column4
+    </div>
+    <div class="pink">
+      column1
+    </div>
+    <div class="pink">
+      column2
+    </div>
+    <div class="pink">
+      column3
+    </div>
+    <div class="pink">
+      column4
+    </div>
+  </div>
+
+  <!-- 11D. Continuing from exercise 10E. Create this design using CSS GRID 
+  
+  - Create a grid with 3 columns and put the elements into the Grid
+  - Replace any uses of display: inline-block
+  - To align elements vertically in a grid, use align-items: center;
+
+  -->
+  <div class="grid">
+      <div class="profile">
+      <img class="profile-picture" src="Cards/grumpy cat.avif" alt="gray cat">
+      <p class="name">Aki</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friend-picture" src="dog2.jpg" alt="mutual friend">
+        <p class="mutual-friends">2 mutual friends</p>
+      </div>
+      <button class="add-friend-btn">Add Friend</button>
+    </div>
+
+    <div class="profile">
+      <img class="profile-picture" src="Cards/orangeCat.jpg" alt="orange cat">
+      <p class="name">Mimi</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friend-picture" src="dog.jpg" alt="mutual friend">
+        <p class="mutual-friends">3 mutual friends</p>
+      </div>
+      <button class="add-friend-btn">Add Friend</button>
+    </div>
+
+    <div class="profile">
+      <img class="profile-picture" src="Cards/tilapia.avif" alt="tilapia cat">
+      <p class="name">Rex</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friend-picture" src="cat.jpg" alt="mutual friend">
+        <p class="mutual-friends">4 mutual friends</p>
+      </div>
+      <button class="add-friend-btn">Add Friend</button>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
