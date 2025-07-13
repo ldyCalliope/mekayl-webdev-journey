@@ -1,0 +1,73 @@
+.flexbox-two-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.lightblue {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.lightpink {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.flexbox-three-items {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-one{
+  background-color: lightblue;
+  width: 50px;
+}
+
+.row-two {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.row-three {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.flexbox-four-items {
+  margin-top: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.item-one, .item-two, .item-three, .item-four {
+  background-color: lightpink;
+}
+
+.left-gap-right {
+  padding: 50px 0;
+  margin-top: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.left-section {
+  background-color: lightpink;
+}
+
+.right-section {
+  background-color: lightpink;
+}
+
