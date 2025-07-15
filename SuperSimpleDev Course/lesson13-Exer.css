@@ -1,0 +1,52 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.second-flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column3 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.column4 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2-item {
+  background-color: black;
+  color: white;
+}
