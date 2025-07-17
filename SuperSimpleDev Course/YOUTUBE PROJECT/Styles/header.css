@@ -9,6 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 
   background-color: white;
   border-bottom-width: 1px;
@@ -40,12 +41,13 @@
   min-width: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .search-bar {
   flex: 1;
   min-width: 0;
-  height: 36px;
+  height: 35px;
   padding-left: 10px;
   font-size: 16px;
   border: 1px solid rgb(192, 192, 192);
@@ -104,6 +106,22 @@
 
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Aral, sans-serif;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
