@@ -69,7 +69,7 @@
   margin-right: 10px;
 }
 
-.search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container
+.search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container,
 .notifications-icon-container {
   display: flex;
   justify-content: center;
