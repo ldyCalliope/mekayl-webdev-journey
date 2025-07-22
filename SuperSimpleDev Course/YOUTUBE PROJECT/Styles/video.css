@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
 .thumbnail {
   width: 100%;
 }
@@ -59,4 +60,9 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+}
+
+.video-link, .channel-link{
+  text-decoration: none;
+  color: inherit;
 }
